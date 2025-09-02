@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-site</title>
-    <link rel="stylesheet" href="sytle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Project</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>About me </h2>
-            <p>I am Mukul Bhendarkar . i am recently graduation from marathawada mitra mandal intitute of technology , pune with the cgpa of 8.79 .As a part of acedemaics and personal learning i completed my everal projects like bank management system and pocket.</p>
-        </section>
-        <section>
-            <h2>Project</h2>
-            <ul>
-                <li><h3>Online Manage bank system Real Time Application</li></h3>
-                    <p> ● Developed a full-stack web application using Spring Boot for backend and JSP/Servlet for the frontend.<br>
-                    ● Implemented secure login and registration features for customers with role-based access control.<br>● Designed and developed REST APIs for functionalities like account management, mobile recharge, and
-credit score checking.<br>● Integrated with MySQL for data persistence and ensured efficient CRUD operations.<br>
-<b> Techstack: Java , Spring Boot , JSX</b></p>
-                </li>
-                <li><h3>Pocket</h3>
-                <p>● Developed a privacy-focused web app where users can easily save and organize their links, images, and notes.<br>
-● Implemented smart search and simple categorization to make finding things quick and clutter-free.<br>
-● Designed a clean, minimal interface on a solid full-stack foundation for a smooth, seamless experience.<br>
-<b>Techstack:Spring Boot , React.js , MySql</b></p></li>
-            </ul>
-        </section>
-        <section>
-        <h2>Contact</h2>
-        <p>Email: <a href="bhendarkarmukul317@gmail.com">mukul@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Mukul Bhendarkar. All right are reversed.</p>
-    </footer>
+  <header>
+    <div class="logo">
+      <h1>My Portfolio</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+   
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am Mukul Bhendarkar. I recently graduated from Marathwada Mitra Mandal 
+        Institute of Technology, Pune with a CGPA of 8.79.  
+        I’ve worked on several academic and personal projects, including a 
+        Bank Management System and a Pocket-like productivity app.
+      </p>
+    </section>
+
+  
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Bank Management System</h3>
+          <p>
+            ● Full-stack web app using Spring Boot (backend) and JSP/Servlet (frontend).<br>
+            ● Role-based authentication, account management, and recharge services.<br>
+            ● REST APIs with MySQL database integration.<br>
+            <b>Tech stack : Java, Spring Boot, JSP:</b> 
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3>Pocket</h3>
+          <p>
+            ● Privacy-focused web app to save and organize links, images, and notes.<br>
+            ● Smart search and categorization with a clean, minimal UI.<br>
+            ● Full-stack foundation for smooth experience.<br>
+            <b>Tech stack: Spring Boot, React.js, MySQL</b>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:bhendarkarmukul317@gmail.com">bhendarkarmukul317@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/mu317ul" target="blank">github.com/username</a></p>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>&copy; 2025 Mukul Bhendarkar. All rights reserved.</p>
+  </footer>
 </body>
 </html>
